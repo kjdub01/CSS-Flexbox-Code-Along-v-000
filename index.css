@@ -1,3 +1,4 @@
+
 html,
 body {
   margin: 0;
@@ -8,23 +9,17 @@ header {
   background-color: #FBFFF4;
   height: 80px;
   width: 100%;
+  flex-shrink: 0;
 }
 
 main {
   display: flex;
-  flex-flow: column wrap;
-  align-items: center;
   background-color: #92C9D5;
   width: 100%;
   height: 100%;
+  flex-flow: row wrap;
   justify-content: center;
-}
-
-.item {
-  height: 100px;
-  width: 100px;
-  margin: 5px;
-  background-color: #FCF2EC;
+  align-items: center;1
 }
 
 footer {
@@ -39,6 +34,13 @@ footer {
   width: 100vw;
   height: 100vh;
   flex-direction: column;
+}
+
+.item {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  background-color: #f3c5e0;
 }
 
 .setWidth {
